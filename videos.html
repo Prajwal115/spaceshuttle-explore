@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head><title>Videos | Space Shuttle</title></head>
+<style>
+  iframe{
+    padding-right:30px;
+    padding-left:150px;
+      padding-bottom:30px;
+  }
+  .sidenav{
+    display:none;
+    height:100%;
+    width:199px;
+    z-index:1;
+    position:fixed;
+    overflow-x: hidden;
+    padding-top:60;
+    background-color:white;
+    padding-top:0px;
+
+  }
+  span{
+    color:black;
+  padding-top: 0px;
+
+
+  }
+  .sidenav .opennav{
+    color:White;
+  }
+  .sidenav a{
+    padding:30px 28px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color:Black;
+    display:block;
+
+  }
+  .sidenav a:hover{
+    background-color:#36454f;
+    font-weight: bold;
+    font-family: arial;
+    color:white;
+    opacity: 0.9;
+  }
+  @keyframes example {
+  10%{left:200px;top:0px;}
+  100%{left:0px;top:0px;}
+
+  }
+  .sidenav a{
+   animation-name: example;
+   animation-duration: 2s;
+     position: relative;
+  }
+h1{
+  text-align:center;
+  font-size:55px;
+}
+body{
+  background-color:#CCC;
+}
+</style>
+<link rel="icon" src ="Images/iconn.jpg"></link>
+<div id="hamburger" class ="sidenav">
+  <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">Close the menu</a>
+  <a href ="home2.html">Home</a>
+  <a href="space.html">The Space Shuttle</a>
+    <a href = "cp.html">Control Panel of Space Shuttle</a>
+  <a href="des.html">Description of Space Shuttle Components</a>
+<a href ="videos.html">Videos</a>
+  <a href = "about.html">About Us</a>
+        <a href ="contact.html">Contact Us</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+  <script>
+  function openNav(){
+    document.getElementById ("hamburger").style.display="block";}
+    </script>
+  <script>
+  function closeNav(){
+  document.getElementById("hamburger").style.display="none";
+  }
+  </script>
+<h1>VIDEOS</h1>
+
+<body>
+
+<iframe width="420" height="290" src="https://www.youtube.com/embed/FJb1mDME6J4?controls=0&amp;start=6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"autoplay></iframe>
+<iframe width="420" height="290" src="https://www.youtube.com/embed/5Qj3on0VTSs?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay></iframe>
+<iframe width="420" height="290" src="https://www.youtube.com/embed/4CmCBm1qW4Y?controls=0&amp;start=6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"autoplay></iframe>
+<iframe width="420" height="290" src="https://www.youtube.com/embed/9kBhkm4nALc?controls=0&amp;start=0;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"autoplay></iframe>
+<iframe width="420" height="290" src="https://www.youtube.com/embed/eK63aaIRrzY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay></iframe>
+<iframe width="420" height="290" src="https://www.youtube.com/embed/iwwE-m917CY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" autoplay></iframe>
+</body>
+</html>

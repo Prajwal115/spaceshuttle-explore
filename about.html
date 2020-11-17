@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Us | Space Shuttle</title>
+</head>
+<style>
+.Images{
+  padding-left:0px;
+}
+.Images img{
+width: 13%;
+float: right;
+}
+  form{
+    text-align: center;
+    font-size:20px;
+    color:Blue;
+    text-decoration: Bold;
+    font-family: Calbri;
+    margin:50px auto;
+    width:600px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  label{
+    display: inline-block;
+    width:120px;
+    text-align: right;
+    color:white;
+    font-size: 20px;
+    padding-right:20px;
+    padding-bottom:20px;
+
+  }
+
+  input{
+    font-size:20px;
+    font-family:Arial;
+    background: #BDBDBD;
+    width:400px;
+    vertical-align: top;
+  }
+  textarea{
+    font-size:20px;
+    font-family:Arial;
+    background: #BDBDBD;
+    width:400px;
+    vertical-align: top;
+
+  }
+  body{
+    background-color:black;
+  }
+  #submit{
+    width:20%;
+    background-color:orange;
+  }
+  .code{
+    color:white;
+  }
+  .sidenav{
+    display:none;
+    height:100%;
+    width:199px;
+    z-index:1;
+    position:fixed;
+    overflow-x: hidden;
+    padding-top:60;
+    background-color: #CCC;
+
+  }
+  span{
+    color:White;
+  padding-top: 0px;
+
+
+  }
+  .sidenav .opennav{
+    color:White;
+  }
+  .sidenav a{
+    padding:30px 28px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color:Black;
+    display:block;
+
+  }
+  .sidenav a:hover{
+    background-color:#36454f;
+    font-weight: bold;
+    font-family: arial;
+    color:white;
+    opacity: 0.9;
+  }
+  @keyframes example {
+  10%{left:200px;top:0px;}
+  100%{left:0px;top:0px;}
+
+  }
+  .sidenav a{
+   animation-name: example;
+   animation-duration: 2s;
+     position: relative;
+  }
+  h3{
+    color:white;
+    font-size:35px;
+    font-family: 'Yanone Kaffeesatz',sans-serif;
+text-align: center;
+    text-transform: uppercase;
+    }
+
+  p{
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+  }
+  footer{
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    background-color:#8b4513;
+  }
+p{
+  color:white;
+  font-family: Century Gothic;
+  text-align: center;
+
+}
+.fullscreen-bg {
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg img {
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 0px;
+}
+img{
+  width: 10%;
+  padding-left: 600px;
+}
+h5{
+  color:white;
+  font-size:17px;
+  animation-name:shift;
+  animation-duration:5s;
+  position:relative;
+animation-iteration-count: infinite;
+font-family:Arial;
+
+}
+@keyframes shift{
+0%{left:0px;color:black;}
+10%{left:100px;color:white;}
+20%{left:200px;color:#CCC;}
+30%{left:300px;color:aqua;}
+40%{left:400px;color:BLUE;}
+50%{left:500px;color:red;}
+60%{left:600px;color:chocolate;}
+70%{left:700px;color:green;}
+80%{left:800px;color:orange;}
+90%{left:900px;color:yellow;}
+100%{left:1000px;color:powderblue;}
+}
+</style>
+
+
+
+
+<audio autoplay loop>
+  <source src ="Music/Final Music.mp3" type="audio/mp3"></source>
+</audio>
+<h5>To know our contact details visit contact page .</h5>
+<link rel="icon" src ="Images/iconn.jpg"></link>
+<body>
+  <div id="hamburger" class ="sidenav">
+    <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+    <a href ="home2.html">Home</a>
+    <a href="space.html">The Space Shuttle</a>
+      <a href = "cp.html">Control Panel of Space Shuttle</a>
+    <a href="des.html">Description of Space Shuttle Components</a>
+<a href ="videos.html">Videos</a>
+    <a href = "about.html">About Us</a>
+          <a href ="contact.html">Contact Us</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+    <script>
+    function openNav(){
+      document.getElementById ("hamburger").style.display="block";}
+      </script>
+    <script>
+    function closeNav(){
+    document.getElementById("hamburger").style.display="none";
+    }
+    </script>
+  <h3>ABOUT US</h3>
+  <p>This website is created by Prajwal of Class IX - A and Nabhya of Clasas IX - C<BR>from Air force golden Jubilee Institute , Subroto Park , New Delhi . </p>
+<img src ="Images/LOGO1.jpg"></img>
+
+
+<div class="fullscreen-bg" >
+
+<video loop autoplay class ="fullscreen-bg__video">
+  <source src ="Images/video1.mp4" type="video/mp4"></source>
+</video>
+</div>
+<h3>About the Website</h3>
+<div class="Images">
+<img src ="Images/logog.png"></img>
+<img src ="Images/php.png"></img>
+<img src ="Images/mys.png"></img>
+</div>
+<p> We used HTML for the website along with CSS for styling and JS for Menu , Validation and Improvements ,also used PHP and Mysql for Register and Login Page . As PHP won't work in Github . Altough PHP Files are uploaded in github repository - php won't work there . So if you want to have the demonstration of Php working , please Contact Us !</p>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title></head>
+  <style>
+    form{
+      text-align: center;
+      font-size:20px;
+      color:Blue;
+      text-decoration: Bold;
+      font-family: Calbri;
+      margin:50px auto;
+      width:600px;
+      border-radius: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+    }
+    label{
+      display: inline-block;
+      width:120px;
+      text-align: right;
+      font-size: 19px;
+        padding-right:20px;
+        padding-bottom: 20px;
+      vertical-align: top;
+      color:brown;
+      font-weight:bold;
+      font-family:century Gothic;
+    }
+
+    input{
+      font-size:20px;
+      font-family:Arial;
+      background: #BDBDBD;
+      width:400px;
+      vertical-align: top;
+    }
+    textarea{
+      font-size:20px;
+      font-family:Arial;
+      background: #BDBDBD;
+      width:400px;
+
+
+    }
+    body{
+    background: #CCC;
+    }
+    h3{
+      color:white;
+    }
+    #submit{
+      width:20%;
+      background-color:orange;
+    }
+    h3{
+        color:black;
+      font-size:25px;
+      font-family: 'Yanone Kaffeesatz',sans-serif;
+  text-align: center;
+      text-transform: uppercase;
+
+      }
+      p{
+        color:black;
+        font-family: Century Gothic;
+        text-align: center;
+        font-size:25px;
+        font-weight:bold;
+      }
+      h1{
+        color:black;
+        font-size:30px;
+        font-family:arial;
+        text-align:center;
+        font-weight:bold;
+        background-color: powderblue;
+        border-radius: 50%;
+
+      }
+      .sidenav{
+        display:none;
+        height:100%;
+        width:199px;
+        z-index:1;
+        position:fixed;
+        overflow-x: hidden;
+        padding-top:60;
+        background-color: #CCC;
+
+      }
+      span{
+        color:blacks;
+      padding-top: 0px;
+
+
+      }
+      .sidenav .opennav{
+        color:White;
+      }
+      .sidenav a{
+        padding:30px 28px 8px 32px;
+        text-decoration: none;
+        font-size: 15px;
+        color:Black;
+        display:block;
+
+      }
+      .sidenav a:hover{
+        background-color:#36454f;
+        font-weight: bold;
+        font-family: arial;
+        color:white;
+        opacity: 0.9;
+      }
+      @keyframes example {
+      10%{left:200px;top:0px;}
+      100%{left:0px;top:0px;}
+
+      }
+      .sidenav a{
+       animation-name: example;
+       animation-duration: 2s;
+         position: relative;
+      }
+  </style>
+
+  <div id="hamburger" class ="sidenav">
+    <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+    <a href ="home2.html">Home</a>
+    <a href="space.html">The Space Shuttle</a>
+      <a href = "cp.html">Control Panel of Space Shuttle</a>
+    <a href="des.html">Description of Space Shuttle Components</a>
+  <a href ="videos.html">Videos</a>
+    <a href = "about.html">About Us</a>
+    <a href ="contact.html">Contact Us</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+    <script>
+    function openNav(){
+      document.getElementById ("hamburger").style.display="block";}
+      </script>
+    <script>
+    function closeNav(){
+    document.getElementById("hamburger").style.display="none";
+    }
+    </script>
+      <h1>CONTACT US</h1>
+  <h3>SEND US MESSAGES HERE</h3>
+  <form method="post" action="send.php">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" id="name" name ="name" required placeholder="Enter your Name">
+  </div>
+    <div>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email ID">
+    </div>
+    <div>
+    <label for "Message">Your Message:</label>
+    <textarea id="Message" name="message" required placeholder="Enter your message here"></textarea id>
+    </div>
+    <input type="submit" id="submit" name =:submit>
+  </form>
+
+<H3>STUDENT CONTACT DETAILS</H3>
+<p>EMAIL ID - prajwalj2006@gmail.com</p>
+<p>SCHOOL - Air force golden Jubilee Institute , Subroto Park</p>
+<H3>TEACHER Contact DETAILS</H3>
+<p>EMAIL ID -arora.mohini.afgji@gmail.com</p>
+</html>

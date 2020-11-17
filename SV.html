@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title>Support Vehicles | Space shuttle</title>
+
+</head>
+<style>
+
+h1{
+  color:white;
+  text-align: center;
+  font-size:50px;
+  font-family:'Yanone Kaffeesatz';
+
+}
+img{
+
+  width:60%;
+  padding-top:20px;
+padding-left: 250px;
+
+}
+
+.code{
+  color:white;
+}
+.sidenav{
+  display:none;
+  height:100%;
+  width:199px;
+  z-index:1;
+  position:fixed;
+  overflow-x: hidden;
+  padding-top:60;
+  background-color: #CCC;
+
+}
+span{
+  color:White;
+padding-top: 0px;
+
+
+}
+.sidenav .opennav{
+  color:White;
+}
+.sidenav a{
+  padding:30px 28px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color:Black;
+  display:block;
+
+}
+.sidenav a:hover{
+  background-color:#36454f;
+  font-weight: bold;
+  font-family: arial;
+  color:white;
+  opacity: 0.9;
+}
+@keyframes example {
+10%{left:200px;top:0px;}
+100%{left:0px;top:0px;}
+
+}
+.sidenav a{
+ animation-name: example;
+ animation-duration: 2s;
+   position: relative;
+}
+@keyframes something {
+0%{top:500px;}
+100%{top:50px;}
+}
+img{
+  animation-name: something;
+  animation-duration: 1s;
+  position: relative;
+  animation-delay: 0.5s;
+}
+
+p{color:white;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+body{
+  background-image: url('Images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  background-color:#8b4513;
+}
+
+</style>
+<body>
+
+<link rel="icon" src ="Images/iconn.jpg"></link>
+<div id="hamburger" class ="sidenav">
+  <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+  <a href ="home2.html">Home</a>
+  <a href="space.html">The Space Shuttle</a>
+    <a href = "cp.html">Control Panel of Space Shuttle</a>
+  <a href="des.html">Description of Space Shuttle Components</a>
+<a href ="videos.html">Videos</a>
+  <a href = "about.html">About Us</a>
+        <a href ="contact.html">Contact Us</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+  <script>
+  function openNav(){
+    document.getElementById ("hamburger").style.display="block";}
+    </script>
+  <script>
+  function closeNav(){
+  document.getElementById("hamburger").style.display="none";
+  }
+  </script>
+  <h1>Support Vehicles</h1>
+
+<p>The Space Shuttle's operations were supported by vehicles and infrastructure that facilated its transportation , constructions and crew access . The Crawler transporters Carried the MLP and the Space Shuttle from the VAB to the launch site . The Shuttle Carrier Aircraft (SCA) were two modified Boeing 747s that could carry an orbiter on its back . The Crew Transport Vehicle (CTV) was modified airport jet bridge that was used to assist Astronauts to egrens from the orbiter after landing .  The astrovans transported Astranauts from the crew quaters in the operational and checkout building to the launch pad on launch day .</p>
+<img src="Images/Boeing.jpg"></img>
+</body>
+</html>

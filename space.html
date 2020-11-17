@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title> The Space Shuttle | Space shuttle</title>
+
+</head>
+<style>
+body{
+  background:black;
+}
+footer{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  background-color:#8b4513;
+}
+
+h1{
+  color:white;
+  text-align: center;
+  font-size:50px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+
+}
+
+.code{
+  color:white;
+}
+.sidenav{
+  display:none;
+  height:100%;
+  width:199px;
+  z-index:1;
+  position:fixed;
+  overflow-x: hidden;
+  padding-top:60;
+  background-color: #CCC;
+
+}
+span{
+  color:White;
+padding-top: 0px;
+
+
+}
+.sidenav .opennav{
+  color:White;
+}
+.sidenav a{
+  padding:30px 28px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color:Black;
+  display:block;
+
+}
+.sidenav a:hover{
+  background-color:#36454f;
+  font-weight: bold;
+  font-family: arial;
+  color:white;
+  opacity: 0.9;
+}
+@keyframes example {
+10%{left:200px;top:0px;}
+100%{left:0px;top:0px;}
+
+}
+.sidenav a{
+ animation-name: example;
+ animation-duration: 2s;
+   position: relative;
+}
+
+h2{
+  color:white;
+  font-family: Arial;
+  text-align: center;
+  font-size:35px;
+}
+@keyframes h1{
+  50%{left:500px;}
+  100%{left:0px;}
+}
+h1{
+  animation-name: h1;
+  animation-duration: 0.5s;
+  position: relative;
+}
+
+p{color:white;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: bold;
+}
+.Images img{
+  width:25%;
+padding-bottom: 0px;
+}
+
+h3{
+  color:white;
+font-size: 25px;
+font-family: Arial;
+text-align: center;
+}
+
+
+
+
+
+strong{
+  color:Aqua;
+}
+.fullscreen-bg {
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg img{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+#more {display: none;}
+
+.whatis{
+  padding-bottom: 50px;
+}
+.whatis button{
+  width: 50%;
+  height: 100%;
+  padding-top: 0px;
+  font-size: 20px;
+  color: Black;
+  background-color:#CCC;
+
+}
+.whatis button:hover{
+  animation-name:hover;
+  animation-duration: 3s;
+  position: relative;
+}
+@keyframes hover{
+  10%{background-color:#CCC;color:black;}
+  20%{background-color:red;color:white;}
+  30%{background-color:orange;color:black;}
+  40%{background-color:pink;color:black;}
+  50%{background-color:blue;color:white;}
+  60%{background-color:green;color:white;}
+  70%{background-color:powderblue;color:black;}
+  80%{background-color:azure;color:black;}
+  90%{background-color:aqua;color:black;}
+  100%{background-color:brown;color:white;}
+}
+
+.right-text{
+  float:left;
+  font-family:cursive;
+font-style: italic;
+padding-top: 0;
+}
+img{
+  width: 25%;
+}
+button{
+color:black;
+background-color: orange;
+width:20%;
+font-size: 25px;
+}
+@keyframes hover{
+  10%{background-color:#CCC;color:black;}
+  20%{background-color:red;color:white;}
+  30%{background-color:orange;color:black;}
+  40%{background-color:pink;color:black;}
+  50%{background-color:blue;color:white;}
+  60%{background-color:green;color:white;}
+  70%{background-color:powderblue;color:black;}
+  80%{background-color:azure;color:black;}
+  90%{background-color:aqua;color:black;}
+  100%{background-color:brown;color:white;}
+}
+button:hover{
+  animation-name: hover;
+  animation-duration: 3s;
+  position: relative;
+}
+.right-text1{
+  float:left;
+  font-family:cursive;
+font-style: italic;
+padding-top: 0;
+}
+#more {display: none;}
+
+#moreone{display: none;}
+p:hover{color:yellow;}
+#moreone:hover{
+  color:yellow;
+}
+#more:hover{
+  color:yellow;
+}
+.special img{
+  width:50%;
+  padding-left: 300px;
+}
+.right-text2{
+  float:left;
+  font-family:cursive;
+font-style: italic;
+padding-top: 0;
+}
+#moretwo {display: none;}
+#moretwo:hover{
+  color:yellow;
+}
+.right-text3{
+
+  float:left;
+  font-family:cursive;
+font-style: italic;
+padding-top: 0;
+}
+.button1{
+  width:100%;
+  padding-bottom: 20px;
+  background-color:powderblue;
+  padding-top: 0;
+}
+.right-text3 img{
+  float: right;
+  padding-top: 20px;
+}
+#morethree {display: none;}
+#morethree:hover{
+  color:yellow;
+}
+
+p{
+  padding-top: 0px;
+}
+.last{
+  float: left;
+  font-family:cursive;
+font-style: italic;
+padding-top: 50px;
+}
+.last img{
+  float: right;
+  padding-top: 50px;
+}
+img{
+  padding-top: 20px;
+}
+.right-text{
+padding-left: 0px;
+}
+.right-text2 img{
+  float: right;
+  padding-top: 350px;
+}
+.right-text1 img{
+  float: right;
+}
+.right-text2 img{
+  float: right;
+padding-right: 0px;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+.right-text img{
+  float: right;
+}
+.right-text2 h3,.right-text h3, .right-text3 h3, .right-text1 h3 {
+  font-style: normal;
+}
+p:hover{
+color:yellow;
+}
+h3:hover{
+color:powderblue;
+}
+
+</style>
+<body>
+<link rel="icon" src ="Images/iconn.jpg"></link>
+
+<div id="hamburger" class ="sidenav">
+  <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+  <a href ="home2.html">Home</a>
+  <a href="space.html">The Space Shuttle</a>
+    <a href = "cp.html">Control Panel of Space Shuttle</a>
+  <a href="des.html">Description of Space Shuttle Components</a>
+<a href ="videos.html">Videos</a>
+  <a href = "about.html">About Us</a>
+      <a href ="contact.html">Contact Us</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+  <script>
+  function openNav(){
+    document.getElementById ("hamburger").style.display="block";}
+    </script>
+  <script>
+  function closeNav(){
+  document.getElementById("hamburger").style.display="none";
+  }
+  </script>
+
+  <h1>The Space Shuttle</h1>
+
+  <div class ="right-text">
+        <img src="Images/intro.jpg"></img>
+  <p>The Space Shuttle was a partially reusable low earth orbital space craft system operated from 1981 to 2011 by National Aeronotics and Space Admisnistration (NASA) as a part of the space shuttle program. The offical program name was space transportation system (STS) .<span id="dots"></span><span id="more">Five complete Space Shuttle orbiter vehicles were built and flown on a total of 135 missions from 1981 to 2011 , launched from Kennedy space Center (KSC) in Florida . Operational missions launched numerous satelites , Interplanetary probes , and the Hubble Space Telescope(HST) , conducted science experiments in orbit and participated in the contruction and servicing of the International Space Station (ISS) . The space Shuttles total mission time was 1322 days , 19 hours , 21 minutes and 23 seconds .</span> </p>
+<button onclick="myFunction()" id="myBtn">Read more</button></div>
+
+
+
+  <div class ="right-text1">
+            <img src="Images/spaceshuttle.jpg"></img>
+      <h3>Space Shuttle Program</h3>
+<p>The Space Shuttle flew from April 12 1981 until July 21 , 2011 . Throughout the program the space shuttle had 137 missions of which 135 returned safely . Throughout the life time , Space shuttle was used to conduct
+   Scientific Research , Deploy Commercial , Military and Scientific Payloads and was involved in the construction and operation of International Space Station (ISS) .<span id="dotsone"></span><span id="moreone"> During its tenune , the space shuttle served as the only US vehicle to launch Astranauts of which there was no replacement until the launch of Crew Dragon Demo 2 on May 30 , 2020 .</span></p>
+
+<button onclick="myFunction1()" id="myBtnone">Read more</button>
+</div>
+
+
+
+
+  <div class ="right-text1">
+      <img src ="Images/Parts.jpg"></img>
+            <img src ="Images/123.jpeg"></img>
+      <h3>The Main Components of the Space Shuttle</h3>
+  <p>Space Shuttle Components include three clustered vehicle (CV) which contained the crew and the payload with three clustered Rocket dyne RS-25 main engines , a pair of recoverable solid rocket boosters (SRBs) and the expandable external tank (ET) containing liquid hydrogen and liquid oxygen .</p></div>
+
+
+  <div class ="right-text2">
+
+    <h3>Mission Profile</h3>
+<p>Shuttle was launched verticallty , like a conventional rocket , with the two SRBs operating in parallel with the Orbiters three main engines , which were fueled from ET . The SRBs were Jettisoned before the vehicle reached orbit , which used the Orbiters  two orbital Maneuvering System (OMS) .<span id="dotstwo"></span><span id="moretwo">
+After the conclusion of the mission, the orbiter fired its OMS to deorbit and reenter the atmosphere. The orbiter was protected during reentry by its thermal protection system tiles, and it glided as a spaceplane to a runway landing, usually to the Shuttle Landing Facility at KSC, Florida, or to Rogers Dry Lake in Edwards Air Force Base, California. If the landing occurred at Edwards, the orbiter was flown back to the KSC on the Shuttle Carrier Aircraft, a specially modified Boeing 747.</span></p>
+<img src ="Images/Launch.jpeg"></img>
+<img src ="Images/Prepare.jpeg"></img>
+<img src ="Images/Procedure.jpeg"></img>
+
+<button onclick="myFunction2()" id="myBtntwo">Read more</button>
+</div>
+
+
+
+
+  <div class ="right-text3">
+    <div class ="button1"></div>
+    <img src ="Images/retire.jpg"></img>
+<p>First Orbiter , Enterprise , was built in 1976 , It had no orbital  capability . Fourfully operational orbiters were initially built ; Columbia , Challenger , Discovery and Atlantis . Of these , Two were lost in mission accidents ,  Challenger in 1986 and Columbia in 2003 , with a total of 14 Astronouts were killed . A Sixth operational orbiter Endeaver was built in 1991 to replace Challenger .
+The retirement of NASA's Space Shuttle fleet took place from March to July 2011. Discovery was the first of the three active Space Shuttles to be retired, completing its final mission on March 9, 2011; Endeavour did so on June 1. The final shuttle mission was completed with the landing  of Atlantis on July 21, 2011, closing the 30-year Space Shuttle program.<span id="dotsthree"></span><span id="morethree">
+The Shuttle was presented to the public in 1972 as a "space truck" which would, among other things, be used to build a United States space station  in low Earth orbit in the early 1990s and then be replaced by a new vehicle. When the concept of the U.S. space station evolved into that of the International Space Station, which suffered from long delays and design  changes before it could be completed, the service life of the Space Shuttle was extended several times until 2011 when it was finally retired.The NASA's Space Shuttle Orion took its first unmanned test flight on December 2015 .</span></p>
+<button onclick="myFunction3()" id="myBtnthree">Read more</button>
+</div>
+
+<div class="last">
+<h3>Landing Sites</h3>
+<img src ="Images/ksc.jpg"></img>
+<p>The Primary Space Shuttle landing site was the Shuttle Landing Facility<br> at KSC , where 78 of 133 successful landing occured . THe Edwards AFB was used for 54 landings . STS-3 landed at the White Sands Space Harber in New Mexico . Landings at the alternate airfields required the Shuttle Carriter Aircraft to transport the Orbiter back to Cape Canarual . </p>
+
+</div>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction1() {
+  var dotsone = document.getElementById("dotsone");
+  var moreTextone = document.getElementById("moreone");
+  var btnTextone = document.getElementById("myBtnone");
+
+  if (dotsone.style.display === "none") {
+    dotsone.style.display = "inline";
+    btnTextone.innerHTML = "Read more";
+    moreTextone.style.display = "none";
+  } else {
+    dotsone.style.display = "none";
+    btnTextone.innerHTML = "Read less";
+    moreTextone.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction2() {
+  var dotstwo = document.getElementById("dotstwo");
+  var moreTexttwo = document.getElementById("moretwo");
+  var btnTexttwo = document.getElementById("myBtntwo");
+
+  if (dotstwo.style.display === "none") {
+    dotstwo.style.display = "inline";
+    btnTexttwo.innerHTML = "Read more";
+    moreTexttwo.style.display = "none";
+  } else {
+    dotstwo.style.display = "none";
+    btnTexttwo.innerHTML = "Read less";
+    moreTexttwo.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction3() {
+  var dotsthree = document.getElementById("dotsthree");
+  var moreTextthree = document.getElementById("morethree");
+  var btnTextthree = document.getElementById("myBtnthree");
+
+  if (dotsthree.style.display === "none") {
+    dotsthree.style.display = "inline";
+    btnTextthree.innerHTML = "Read more";
+    moreTextthree.style.display = "none";
+  } else {
+    dotsthree.style.display = "none";
+    btnTextthree.innerHTML = "Read less";
+    moreTextthree.style.display = "inline";
+  }
+}
+
+</script>
+<div class="fullscreen-bg" >
+<img src ="Images/bgbg.jpg"></img>
+</div>
+</body>
+
+</html>

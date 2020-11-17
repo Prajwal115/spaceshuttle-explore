@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+<title> Control Panel | Space shuttle</title>
+
+</head>
+<style>
+h1{
+  color:white;
+  text-align: center;
+  font-size:50px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+
+}
+
+
+.code{
+  color:white;
+}
+.sidenav{
+  display:none;
+  height:100%;
+  width:199px;
+  z-index:1;
+  position:fixed;
+  overflow-x: hidden;
+  padding-top:60;
+  background-color: #CCC;
+
+}
+span{
+  color:White;
+padding-top: 0px;
+
+
+}
+.sidenav .opennav{
+  color:White;
+}
+.sidenav a{
+  padding:30px 28px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color:Black;
+  display:block;
+
+}
+.sidenav a:hover{
+  background-color:#36454f;
+  font-weight: bold;
+  font-family: arial;
+  color:white;
+  opacity: 0.9;
+}
+@keyframes example {
+10%{left:200px;top:0px;}
+100%{left:0px;top:0px;}
+
+}
+.sidenav a{
+ animation-name: example;
+ animation-duration: 2s;
+   position: relative;
+}
+
+h2{
+  color:white;
+  font-family: Arial;
+  text-align: center;
+  font-size:35px;
+}
+@keyframes h1{
+  50%{left:500px;}
+  100%{left:0px;}
+}
+h1{
+  animation-name: h1;
+  animation-duration: 0.5s;
+  position: relative;
+}
+
+p{color:white;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+
+h3{
+  color:white;
+font-size: 34px;
+font-family: Arial;
+text-align: center;
+}
+
+
+strong{
+  color:Aqua;
+}
+.right-text p{
+  float:left;
+font-style: italic;
+padding-top: 0;
+}
+.right-text img{
+  float:right;
+}
+#more{
+  display: none;
+}
+h4{
+color:white;
+font-size: 34px;
+font-family: Arial;
+text-align: center;
+  padding-top:200px;
+
+}
+button{
+color:black;
+background-color: orange;
+width:20%;
+font-size: 25px;
+}
+@keyframes hover{
+  10%{background-color:#CCC;color:black;}
+  20%{background-color:red;color:white;}
+  30%{background-color:orange;color:black;}
+  40%{background-color:pink;color:black;}
+  50%{background-color:blue;color:white;}
+  60%{background-color:green;color:white;}
+  70%{background-color:powderblue;color:black;}
+  80%{background-color:azure;color:black;}
+  90%{background-color:aqua;color:black;}
+  100%{background-color:brown;color:white;}
+}
+button:hover{
+  animation-name:hover;
+  animation-duration: 3s;
+  position: relative;
+}
+img{
+width:25%;
+}
+.right-text img{
+  float: right;
+}
+.right-text p{
+  float:left;
+
+}
+.right-text2 img{
+  float: right;
+}
+.right-text2 p{
+  float:left;
+font-style: italic;
+padding-top: 0;
+}
+#more1{
+  display: none;
+}
+.right-text2 p:hover{
+  color:yellow;
+}
+.right-text p:hover{
+  color:yellow;
+}
+#more:hover{
+  color:yellow;
+}.points{
+padding-top: 350px;
+}
+#more1:hover{
+  color:yellow;
+}.points{
+padding-top: 350px;
+}
+#more2:hover{
+  color:yellow;
+}.points{
+padding-top: 350px;
+}
+#more3:hover{
+  color:yellow;
+}.points{
+padding-top: 350px;
+}
+#more2{
+  display: none;
+}
+#more3{
+  display: none;
+}
+.fullscreen-bg {
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg img {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+footer{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  background-color:#8b4513;
+}
+img{
+  width:50%;
+}
+</style>
+<body>
+
+<link rel="icon" src ="Images/iconn.jpg"></link>
+<div id="hamburger" class ="sidenav">
+  <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+  <a href ="home2.html">Home</a>
+  <a href="space.html">The Space Shuttle</a>
+    <a href = "cp.html">Control Panel of Space Shuttle</a>
+  <a href="des.html">Description of Space Shuttle Components</a>
+<a href ="videos.html">Videos</a>
+  <a href = "about.html">About Us</a>
+      <a href ="contact.html">Contact Us</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+  <script>
+  function openNav(){
+    document.getElementById ("hamburger").style.display="block";}
+    </script>
+  <script>
+  function closeNav(){
+  document.getElementById("hamburger").style.display="none";
+  }
+  </script>
+  <h1>The Control Panel Of Space Shuttle</h1>
+<h3>Avionics Systems / Flight Systems</h3>
+<p>The Space Shuttle Avionics system controls or assists in controlling most of the Shuttle Systems .
+Its Main Functions Include :</p>
+<div class ="right-text">
+
+  <p>Automatic determination of the vehicle's status and operational readings ; implementation sequencing and control for the solid rocket boosters and external tank during launch and asceent ; performance monitoring , digital data processing ; communications and tracking ; payload and system management ; guidance ; navigation and control (Integrated GPS/INS) and eletrical power distribution for the orbiter , external tank and solid rocket boosters . The Space Shuttle avionics system consists of more than 300 major electronic black boxes through out the vehicle , connected by more than 300 miles of electrical wiring .<span id="dots"></span><span id="more"> There are approximately 120,400 wire segments and 6,491 connectors in the vehicle . Total weight of the black boxes , wiring of the black boxes , wirings and connectors is approximately 17,116 Pounds . The Black boxes are connected to a set of five general purpose computers through common party lines called databuses . The black boxes offer dual or triple redundancy for every function .</span></p>
+
+  <button onclick="myFunction()" id="myBtn">Read More</button>  <img src = "Images/Avionics.jpg"></img>
+        <img src = "Images/Avionics1.jpg"></img>
+
+</div>
+
+
+  <h4>Data Processing System</h4>
+  <div class="right-text2">
+  <p>The Space Shuttle's fly - by - wire control system was entirely reliant on its main computer , the Data processing system (DPS) . The Data Processing System through the use of various hard ware components and its self contained computer programming (Software) provides the vehicle with this monitoring and control .The DPS Hardware consisted of five general purpose computers (GPC)  for computation and control , two magnetic tape ,<span id="dots1"></span><span id="more1"> mass memory units(MMU) for large volume bulk storage , a time stored data bus network consisting of serial digital data buses to accomodate the data traffic between the GPCs and Space Shuttle vehicle systems , nineteen orbiter and four solid rocket boosters multiplexers / Demultiplexers to convert and format data from various vehicle systems , three space shuttle main engine interface units to command and SSMEs , four multifunction CRT display systems used by the flight crew to monitor and control the vehicle and payload systems , two data bus isolation amplifiers to interface with the ground support equipment / launch processing system and the solid rocket boosters , two master event controllers and a master timing unit . </span></p>
+  <button onclick="myFunction1()" id="myBtn1">Read More</button>
+  <img src ="Images/APC.jpg"></img>
+  <img src ="Images/GPC2.jpeg"></img>
+  </div>
+
+<div class ="points">
+  <p>DPS software (System Software and Application Software) programs are written HAL/S (High order assembly language / Shuttle) especially developed for real time space flight applications . The system software is the GPC operating software that controls the interfaces among the computers and the rest of the DPS</p>
+<p>The Application software performs the actual duties required to fly and operate the vehicle . It's major functions are :-</p>
+<p>(i) Vehicle guidance navigation and control required for launch , ascent to orbit , Maneuvering in orbit entry and landing on runway . </p>
+<p>(ii) System management programs with instructions for loading memories in the space shuttle in the main engine computers and for checking the vehicle instrumentation system , aiding in vehicle sub-system checkout , ascertaining that flight crew displays and controls perform properly and updating inertial measurement unit state vectors .</p>
+<span id="dots2"></span>
+<span id="more2">
+
+<p>(iii) Payload Processing programs with instructions for controlling and monitoring orbiter payload systems .</p>
+<p>(iv) Vehicle checkout programs needed to handle data management , performance monitoring , special processing and display and control processing. </p>
+</span>
+    <button onclick="myFunction2()" id="myBtn2">Read More</button>
+<p>Four of the GPCs were loaded with the primary avionics software system (PASS) which was space shuttle specific software that provided control through all phases of flight . The fifth GPC ran the back-up flight system which used a different program and could control the space shuttle through ascent , orbit and re-entry , but could not support the entire mission .
+  <span id="dots3"></span>
+  <span id="more3">
+The Original GPC used was IBM AP-101B which used a separate central processing unit (CPU) and input / output processors (IOP) and non-volatile solid state memory . Later from 1991 to 1993 the orbital vehichles were upgraded to 101-S , which combined the CPU and IOP with a single unit which reduced volume and weight of the computers , which had improved memory and processing capabilities . Earlier missions brought the grid compass , one of the laptop computers as the Portable
+ general support computer (PGSC) , that could integrate with the orbiter vehicles computers and communication suite as well as monitor Scientific and payload data .  But the later missions brought Apple and Intel Laptops .</span></p>
+    <button onclick="myFunction3()" id="myBtn3">Read More</button>
+</div>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction1() {
+  var dots1 = document.getElementById("dots1");
+  var moreText1 = document.getElementById("more1");
+  var btnText1 = document.getElementById("myBtn1");
+
+  if (dots1.style.display === "none") {
+    dots1.style.display = "inline";
+    btnText1.innerHTML = "Read more";
+    moreText1.style.display = "none";
+  } else {
+    dots1.style.display = "none";
+    btnText1.innerHTML = "Read less";
+    moreText1.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction2() {
+  var dots2 = document.getElementById("dots2");
+  var moreText2 = document.getElementById("more2");
+  var btnText2 = document.getElementById("myBtn2");
+
+  if (dots2.style.display === "none") {
+    dots2.style.display = "inline";
+    btnText2.innerHTML = "Read more";
+    moreText2.style.display = "none";
+  } else {
+    dots2.style.display = "none";
+    btnText2.innerHTML = "Read less";
+    moreText2.style.display = "inline";
+  }
+}
+</script>
+<script>
+function myFunction3() {
+  var dots3 = document.getElementById("dots3");
+  var moreText3 = document.getElementById("more3");
+  var btnText3 = document.getElementById("myBtn3");
+
+  if (dots3.style.display === "none") {
+    dots3.style.display = "inline";
+    btnText3.innerHTML = "Read more";
+    moreText3.style.display = "none";
+  } else {
+    dots3.style.display = "none";
+    btnText3.innerHTML = "Read less";
+    moreText3.style.display = "inline";
+  }
+}
+</script>
+<div class="fullscreen-bg" >
+<img src ="Images/CSP.jpg"></img>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+<title>Description | Space shuttle</title>
+
+</head>
+<style>
+body{
+  background-color: Black;
+}
+h1{
+  color:white;
+  text-align: center;
+  font-size:50px;
+  font-family:'Yanone Kaffeesatz',sans-serif;
+
+}
+
+.code{
+  color:white;
+}
+.sidenav{
+  display:none;
+  height:100%;
+  width:199px;
+  z-index:1;
+  position:fixed;
+  overflow-x: hidden;
+  padding-top:60;
+  background-color: #CCC;
+
+}
+span{
+  color:White;
+padding-top: 0px;
+
+
+}
+.sidenav .opennav{
+  color:White;
+}
+.sidenav a{
+  padding:30px 28px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color:Black;
+  display:block;
+
+}
+.sidenav a:hover{
+  background-color:#36454f;
+  font-weight: bold;
+  font-family: arial;
+  color:white;
+  opacity: 0.9;
+}
+@keyframes example {
+10%{left:200px;top:0px;}
+100%{left:0px;top:0px;}
+
+}
+.sidenav a{
+ animation-name: example;
+ animation-duration: 2s;
+   position: relative;
+}
+
+h2{
+  color:white;
+  font-family: Arial;
+  text-align: center;
+  font-size:35px;
+}
+@keyframes h1{
+  50%{left:500px;}
+  100%{left:0px;}
+}
+h1{
+  animation-name: h1;
+  animation-duration: 0.5s;
+  position: relative;
+}
+@keyframes h3{
+  0%{right:500px;}
+  100%{right:0px;}
+}
+h3{
+  animation-name: h3;
+  animation-duration: 2s;
+  position: relative;
+  animation-delay: 5.5s;
+}
+p{color:white;
+font-size: 25px;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+}
+div img{
+  width:10%;
+  padding-right: 180px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+h3{
+  color:white;
+font-size: 45px;
+font-family: Arial;
+text-align: center;
+padding-bottom: 30px;
+}
+img:hover{
+  animation-name: zoom;
+  animation-duration: 2s;
+  position: relative;
+}
+@keyframes zoom{
+0%{width:10%;}
+  100%{width: 14%;}
+
+
+}
+.fullscreen-bg {
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    height: 100%;}
+
+.fullscreen-bg img {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+
+footer{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  background-color:#8b4513;
+}
+</style>
+<body>
+  <link rel="icon" src ="Images/iconn.jpg"></link>
+<div id="hamburger" class ="sidenav">
+  <a href ="javascript:void(0)" class ="closebtn" onclick="closeNav()">&times;</a>
+  <a href ="home2.html">Home</a>
+  <a href="space.html">The Space Shuttle</a>
+    <a href = "cp.html">Control Panel of Space Shuttle</a>
+  <a href="des.html">Description of Space Shuttle Components</a>
+<a href ="videos.html">Videos</a>
+  <a href = "about.html">About Us</a>
+      <a href ="contact.html">Contact Us</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer;"onclick=openNav()>&#9776 </span>
+  <script>
+  function openNav(){
+    document.getElementById ("hamburger").style.display="block";}
+    </script>
+  <script>
+  function closeNav(){
+  document.getElementById("hamburger").style.display="none";
+  }
+    </script>
+<div>
+  <h3>Description Of Space Shuttle Components</h3>
+  <a href="Orbiter.html">
+  <img src ="Images/orbit.jpg"></img>
+  </a>
+  <a href="crew.html"><img src ="Images/crew1.jpg"></img>
+    </a>
+    <a href="CC.html">
+      <img src ="Images/CCC.jpg"></img>
+      </a>
+      <a href ="cp.html">
+        <img src ="Images/CC11.jpg"></img>
+        </a>
+        <a href="PB.html">
+  <img src ="Images/PBb.jpg"></img>
+  </a>
+  <a href="RMS.html">
+<img src ="Images/RMSS.jpg"></img>
+</a>
+<a href="SL.html">
+<img src ="Images/SLL.jpg"></img>
+</a>
+<a href ="RS25.html">
+<img src ="Images/R25.jpg"></img>
+</a>
+<a href="oms.html">
+<img src ="Images/OM.jpg"></img>
+</a>
+<a href ="TPS.html">
+<img src ="Images/TP.jpg"></img>
+</a>
+<a href="ET.html">
+<img src ="Images/ett.jpg"></img>
+</a>
+<a href ="SRB.html">
+<img src ="Images/srbb.jpg"></img>
+</a>
+<a href="SV.html">
+<img src ="Images/ssv.jpg"></img>
+</a>
+</div>
+<div class="fullscreen-bg" >
+<img src ="Images/dess.jpg"></img>
+</div>
